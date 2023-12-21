@@ -176,7 +176,7 @@ a {
 	transition: all 0.5s;
 }
 .featured-item:hover h4 {
-	color: #3a8bcd;
+	color: #3a7fcd;
 }
 .featured-item h6 {
 	color: #3a8bcd;
@@ -291,12 +291,12 @@ a {
 }
 .footer .footer-menu a {
 	font-size: 13px;
-	color: #7a7a7a;
+	color: #414040;
 	text-transform: uppercase;
 	transition: all 0.5s;
 }
 .footer .footer-menu a:hover {
-	color: #3a8bcd;
+	color: #b39f32;
 	text-decoration: none;
 }
 .footer .social-icons {
@@ -646,7 +646,7 @@ a {
 }
 .contact-page .right-content h6 {
 	font-size: 14px;
-	color: #4a4a4a;
+	color: #8f8d8d;
 	font-weight: 400;
 }
 .contact-page .right-content span a:hover i {
