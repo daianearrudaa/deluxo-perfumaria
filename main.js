@@ -170,4 +170,23 @@ $(document).ready(function () {
         validate($(this))
         $(this).mask('000.000.000-00');
     })
+
+    document.getElementById('toggleNavbar').addEventListener('click', function() {
+        // Encontre o alvo do collapse usando o atributo 'data-target'
+        var targetSelector = this.getAttribute('data-target');
+        var targetCollapse = document.querySelector(targetSelector);
+
+        // Verifique se o collapse está visível ou oculto e altere o estado
+        if (targetCollapse.classList.contains('show')) {
+            // Se estiver visível, oculte
+            targetCollapse.classList.remove('show');
+        } else {
+            // Se estiver oculto, mostre
+            targetCollapse.classList.add('show');
+        }
+    });
+
+    var myModal = new bootstrap.Modal(document.getElementById('modalId')); 
+
 })
+
