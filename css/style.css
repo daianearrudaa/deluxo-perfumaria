@@ -71,6 +71,7 @@ a {
 .bg-dark {
 	background-color: #fff!important;
 	border-bottom: 1px solid #eee;
+	
 }
 #navbarResponsive {
 	z-index: 999;
@@ -121,6 +122,23 @@ a {
 	line-height: 30px;
 	font-family: 'FontAwesome';
 }
+
+
+
+.navbar-navegacao{
+	background-color: #ffffff!important;
+	position: static;
+	
+}
+.btn-outline-dark{
+	color: #58570d;
+	border-color: #58570d;
+}
+.btn-outline-dark:hover{
+	background-color: #58570d!important;
+	
+}
+
 /* Banner Style */
 .banner {
 	margin-top: 50px;
@@ -671,18 +689,6 @@ a {
 	border: none;
 }
 
-.navbar-navegacao{
-	background-color: #ffffff!important;
-	
-}
-.btn-outline-dark{
-	color: #58570d;
-	border-color: #58570d;
-}
-.btn-outline-dark:hover{
-	background-color: #58570d!important;
-	
-}
 
 /* Responsive Style */
 @media (max-width: 991px) {
