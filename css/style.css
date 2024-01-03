@@ -123,7 +123,27 @@ a {
 	font-family: 'FontAwesome';
 }
 
+.button-sobre{
+	background-color: #58570d;
+	border: none;
+}
 
+.button-sobre:hover{
+	background-color: #8b7f0c;
+}
+
+.badge {
+	display: none;
+}
+
+.li-contato{
+	height: 55px;
+}
+
+.custom-small-font{
+	font-size: 12px;
+	color: #999797;
+}
 
 .navbar-navegacao{
 	background-color: #ffffff!important;
